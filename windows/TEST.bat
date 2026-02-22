@@ -1,0 +1,3 @@
+@echo off
+echo Running auto-login test...
+powershell -NoProfile -ExecutionPolicy Bypass -NoExit -File "%~dp0test-wifi-login.ps1"

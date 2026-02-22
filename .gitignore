@@ -1,0 +1,9 @@
+.DS_Store
+android-app/app/build/
+android-app/build/
+android-app/.gradle/
+android-app/.idea/
+android-app/local.properties
+*.zip
+__pycache__/
+*.pyc

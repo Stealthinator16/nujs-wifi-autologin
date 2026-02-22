@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">172.24.66.1</domain>
+    </domain-config>
+    <!-- Allow captive portal check -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">captive.apple.com</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">connectivitycheck.gstatic.com</domain>
+    </domain-config>
+</network-security-config>

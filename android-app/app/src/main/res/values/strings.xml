@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NUJS WiFi AutoLogin</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_connected">Connected</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="label_log">Log</string>
+    <string name="notif_channel_name">Auto-Login Service</string>
+    <string name="notif_title">WiFi AutoLogin Active</string>
+    <string name="notif_text">Monitoring NUJS-CAMPUS WiFi</string>
+</resources>
