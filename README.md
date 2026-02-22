@@ -53,6 +53,14 @@ Native Kotlin app with a foreground service that monitors WiFi connectivity. Pro
 - **Setup:** Build in Android Studio, install, enter credentials, tap Start
 - [Full instructions](android-app/README.md)
 
+### iOS / iPadOS (Shortcuts)
+
+Uses the built-in Shortcuts app with a WiFi automation trigger. No app install needed — runs silently when connecting to the campus network.
+
+- **Requirements:** iOS 15.4+ (earlier versions require a notification tap)
+- **Setup:** Create a Shortcuts automation following the step-by-step guide
+- [Full instructions](ios/README.md)
+
 ## Security
 
 Credentials are never stored in plaintext script files:
@@ -62,6 +70,7 @@ Credentials are never stored in plaintext script files:
 - **Windows (Python):** Stored in Windows Credential Manager via `cmdkey`
 - **Android Automate:** Credentials are embedded in the Automate flow (stored within the app's private data)
 - **Android App:** Stored in SharedPreferences (app-private storage)
+- **iOS/iPadOS:** Stored within the Shortcut definition (on-device only)
 
 ## License
 
